@@ -223,6 +223,7 @@ class ConversionService {
     add('word/document.xml', documentXml);
 
     final zipped = ZipEncoder().encode(archive);
+    if (zipped == null) throw Exception('Errore creazione file .docx');
     return Uint8List.fromList(zipped);
   }
 

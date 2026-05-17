@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'dart:typed_data';
+import 'dart:ui' show Offset;
 import 'package:syncfusion_flutter_pdf/pdf.dart';
 
 /// Operazioni di manipolazione strutturale dei PDF.
